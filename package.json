@@ -4,12 +4,7 @@
   "description": "Restaurant-list api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pepealbuixech/restaurant-server.git"
   },
   "keywords": [
     "node",
@@ -18,10 +13,6 @@
   ],
   "author": "pepealbuixech",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pepealbuixech/restaurant-server/issues"
-  },
-  "homepage": "https://github.com/pepealbuixech/restaurant-server#readme",
   "dependencies": {
     "express.js": "^1.0.0"
   }
