@@ -3,9 +3,15 @@ const app = express();
 const restaurants = require('./restaurants.json');
 
 app.get('/restaurants', (req, res) => {
+    console.log('GET /restaurants');
     res.send(restaurants);
 });
 
-app.listen(80, () => {
-    console.log('Listening port 80');
+app.get('/', (req, res) => {
+   console.log('GET /');
+   res.send("Merdapatu");
+});
+
+app.listen(8080, () => {
+    console.log('Listening port 8080');
 });
