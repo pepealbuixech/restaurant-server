@@ -3,11 +3,11 @@ const app = express();
 const restaurants = require('./restaurants.json');
 
 app.use(express.json);
-/*
+
 app.get('/restaurants', (req, res) => {
     console.log('GET /restaurants');
     res.send(restaurants);
-}); */
+}); 
 
 app.get('/', (req, res) => {
    console.log('GET /');
